@@ -4,6 +4,12 @@ h1 {
 
 .section-hero {
   background-color: #ffb8ca;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+  width: 100%;
 }
 
 .hero {
