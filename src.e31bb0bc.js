@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\images\\products\\arrow-right.png":[["arrow-right.43fe967f.png","images/products/arrow-right.png"],"images/products/arrow-right.png"],"./..\\images\\products\\arrow-right@2x.png":[["arrow-right@2x.cc4124b1.png","images/products/arrow-right@2x.png"],"images/products/arrow-right@2x.png"],"D:\\GIT\\icecream\\src\\images\\btn-sign-rvs.svg":[["btn-sign-rvs.cbd240e7.svg","images/btn-sign-rvs.svg"],"images/btn-sign-rvs.svg"],"./..\\images\\how-its-made\\milk-bg320.png":[["milk-bg320.8b3cc6c6.png","images/how-its-made/milk-bg320.png"],"images/how-its-made/milk-bg320.png"],"./..\\images\\how-its-made\\milk-bg1280.png":[["milk-bg1280.5181f559.png","images/how-its-made/milk-bg1280.png"],"images/how-its-made/milk-bg1280.png"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"index.js":[function(require,module,exports) {
+},{"./..\\images\\products\\arrow-right.png":[["arrow-right.43fe967f.png","images/products/arrow-right.png"],"images/products/arrow-right.png"],"./..\\images\\products\\arrow-right@2x.png":[["arrow-right@2x.cc4124b1.png","images/products/arrow-right@2x.png"],"images/products/arrow-right@2x.png"],"D:\\GIT\\icecream\\src\\images\\btn-sign-rvs.svg":[["btn-sign-rvs.cbd240e7.svg","images/btn-sign-rvs.svg"],"images/btn-sign-rvs.svg"],"./..\\images\\ice-cream.png":[["ice-cream.8f5e7b98.png","images/ice-cream.png"],"images/ice-cream.png"],"./..\\images\\ellipse.png":[["ellipse.a6a30738.png","images/ellipse.png"],"images/ellipse.png"],"./..\\images\\girl.png":[["girl.a9774c98.png","images/girl.png"],"images/girl.png"],"./..\\images\\milk.png":[["milk.0a0970c7.png","images/milk.png"],"images/milk.png"],"./..\\images\\arrow.png":[["arrow.dd9de399.png","images/arrow.png"],"images/arrow.png"],"./..\\images\\how-its-made\\milk-bg320.png":[["milk-bg320.8b3cc6c6.png","images/how-its-made/milk-bg320.png"],"images/how-its-made/milk-bg320.png"],"./..\\images\\how-its-made\\milk-bg1280.png":[["milk-bg1280.5181f559.png","images/how-its-made/milk-bg1280.png"],"images/how-its-made/milk-bg1280.png"],"D:\\GIT\\icecream\\src\\images\\review-lines.svg":[["review-lines.9723db7b.svg","images/review-lines.svg"],"images/review-lines.svg"],"D:\\GIT\\icecream\\src\\images\\review-quotes.svg":[["review-quotes.bde36579.svg","images/review-quotes.svg"],"images/review-quotes.svg"],"D:\\GIT\\icecream\\src\\images\\review-lines-tablet.svg":[["review-lines-tablet.bfff5ba0.svg","images/review-lines-tablet.svg"],"images/review-lines-tablet.svg"],"D:\\GIT\\icecream\\src\\images\\review-lines-desktop.svg":[["review-lines-desktop.0a485daf.svg","images/review-lines-desktop.svg"],"images/review-lines-desktop.svg"],"./..\\images\\contacts\\milkdrops.png":[["milkdrops.3712866d.png","images/contacts/milkdrops.png"],"images/contacts/milkdrops.png"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"index.js":[function(require,module,exports) {
 "use strict";
 
 require("./sass/main.scss");
@@ -221,7 +221,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54086" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51949" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
