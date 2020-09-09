@@ -168,10 +168,9 @@
 
 .contacts-btn {
   width: 161px;
-  @media screen and (max-width: 767px) {
-    margin-right: auto;
-    margin-left: auto;
-  }
+
+  margin-right: auto;
+  margin-left: auto;
   border-radius: 22px;
 
   border-color: transparent;
@@ -202,35 +201,33 @@
 
 // Mobil
 
-@media screen and (max-width: 767px) {
-  .contacts {
-    padding-bottom: 113px;
-    background-color: #fff5f6;
+.contacts {
+  padding-bottom: 113px;
+  background-color: #fff5f6;
 
-    & .container {
-      position: relative;
-      // bottom: 84px;
-      min-width: 320px;
-      padding-left: 50px;
-      padding-right: 50px;
-    }
-  }
-
-  .contacts-list {
+  & .container {
     position: relative;
-    top: -84px;
-    margin-bottom: -3px;
+    // bottom: 84px;
+    min-width: 320px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
+}
 
-  .contacts-item {
-    padding-top: 43px;
-    padding-right: 20px;
-    padding-bottom: 43px;
-    padding-left: 20px;
+.contacts-list {
+  position: relative;
+  top: -84px;
+  margin-bottom: -3px;
+}
 
-    &:not(:last-child) {
-      margin-bottom: 20px;
-    }
+.contacts-item {
+  padding-top: 43px;
+  padding-right: 20px;
+  padding-bottom: 43px;
+  padding-left: 20px;
+
+  &:not(:last-child) {
+    margin-bottom: 20px;
   }
 }
 
