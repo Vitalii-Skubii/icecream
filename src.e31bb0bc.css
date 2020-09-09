@@ -315,11 +315,6 @@ a {
   }
 }
 
-@media screen and (max-width: 767px) {
-  .product-list-item:not(:last-child) {
-    margin-bottom: 135px;
-  }
-}
 .product-list-item {
   position: relative;
   padding-top: 161px;
@@ -327,6 +322,11 @@ a {
   padding-right: 41px;
   padding-left: 39px;
   border-radius: 24px;
+}
+@media screen and (max-width: 767px) {
+  .product-list-item:not(:last-child) {
+    margin-bottom: 135px;
+  }
 }
 .product-list-item.ice-cream {
   background-color: #ffb8ca;
@@ -336,6 +336,11 @@ a {
 }
 .product-list-item.milkshakes {
   background-color: #c2e297;
+}
+@media screen and (max-width: 767px) {
+  .product-list-item:not(:last-child) {
+    margin-bottom: 130px;
+  }
 }
 @media screen and (min-width: 768px) {
   .product-list-item {
@@ -355,11 +360,6 @@ a {
     padding-bottom: 50px;
     padding-right: 44px;
     padding-left: 44px;
-  }
-}
-@media screen and (min-width: 1280px) and (max-width: 767px) {
-  .product-list-item:not(:last-child) {
-    margin-bottom: 130px;
   }
 }
 
